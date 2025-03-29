@@ -2,6 +2,10 @@
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
+```
+Register no: 212222040045
+
+```
 
 # AIM:
 
@@ -32,22 +36,27 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![Screenshot 2025-03-29 134547](https://github.com/user-attachments/assets/899bde9a-d8e9-4bcd-a9de-661ec82bd8e6)
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![Screenshot 2025-03-29 134659](https://github.com/user-attachments/assets/b05c690f-5c2b-4efe-aa3e-5eac6a524ff8)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![Screenshot 2025-03-29 134750](https://github.com/user-attachments/assets/d5de3b91-2349-475b-bd4e-632b89a7a440)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![Screenshot 2025-03-29 134841](https://github.com/user-attachments/assets/06fc42e6-5b57-46eb-b81c-089fa7dc663c)
 
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![Screenshot 2025-03-29 140443](https://github.com/user-attachments/assets/cc3fdce8-4b8a-46f4-a70e-2afd64233d0e)
 
  
 #DNS Enumeration
@@ -61,6 +70,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
+![WhatsApp Image 2025-03-29 at 13 59 26_2f866f56](https://github.com/user-attachments/assets/2ebfe44b-887f-41cf-8ac8-bd430c9bdbed)
 
 
 
@@ -81,23 +91,24 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![WhatsApp Image 2025-03-29 at 13 59 26_d5a75bdb](https://github.com/user-attachments/assets/6f800701-1e21-4f3e-9fc5-459058c54c0e)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+![WhatsApp Image 2025-03-29 at 13 59 26_9ef28630](https://github.com/user-attachments/assets/eed5a768-716a-4332-a45f-b63d737d1c93)
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
+![WhatsApp Image 2025-03-29 at 13 59 26_594aab0f](https://github.com/user-attachments/assets/4034b9b9-a228-4f3a-9763-d9576f5a3834)
 
 
-#Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
+#Telnet for smtp enumeration Telnet allows to connect to remote host based on the port no. For smtp port no is 25 to connect and issue appropriate commands
   
  ##Output
-  
+  ![WhatsApp Image 2025-03-29 at 13 59 26_5fdf6a63](https://github.com/user-attachments/assets/12591f7b-90d4-4964-9448-dd9f1bb84b1e)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -106,6 +117,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![WhatsApp Image 2025-03-29 at 13 59 25_98fbf637](https://github.com/user-attachments/assets/8420cb8f-0910-468f-a61d-98f6415fc71f)
 
 
 ## RESULT:
